@@ -1,11 +1,11 @@
-// Package template provides a Logur adapter for TEMPLATE.
-package template
+// Package zap provides a Logur adapter for Uber's Zap.
+package zap
 
 import (
 	"github.com/goph/logur"
 )
 
-// Logger is a Logur adapter for TEMPLATE.
+// Logger is a Logur adapter for Uber's Zap.
 type Logger struct {
 }
 

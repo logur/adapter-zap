@@ -1,4 +1,4 @@
-package template
+package zap
 
 import (
 	"testing"

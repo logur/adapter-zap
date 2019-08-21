@@ -1,12 +1,12 @@
-package template_test
+package zap_test
 
 import (
-	templateadapter "logur.dev/adapter/template"
+	zapadapter "logur.dev/adapter/zap"
 )
 
 func ExampleNew() {
 	var l interface{}
-	logger := templateadapter.New(l)
+	logger := zapadapter.New(l)
 
 	// Output:
 	_ = logger
@@ -14,7 +14,7 @@ func ExampleNew() {
 
 // If logger is nil, a default instance is created.
 func ExampleNew_default() {
-	logger := templateadapter.New(nil)
+	logger := zapadapter.New(nil)
 
 	// Output:
 	_ = logger
