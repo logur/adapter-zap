@@ -21,11 +21,12 @@ go get logur.dev/adapter/zap
 package main
 
 import (
+	"go.uber.org/zap"
 	zapadapter "logur.dev/adapter/zap"
 )
 
 func main() {
-	logger := zapadapter.New(/*logger*/)
+	logger := zapadapter.New(zap.NewNop())
 }
 ```
 

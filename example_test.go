@@ -1,12 +1,13 @@
 package zap_test
 
 import (
+	"go.uber.org/zap"
+
 	zapadapter "logur.dev/adapter/zap"
 )
 
 func ExampleNew() {
-	var l interface{}
-	logger := zapadapter.New(l)
+	logger := zapadapter.New(zap.NewNop())
 
 	// Output:
 	_ = logger
