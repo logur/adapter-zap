@@ -2,9 +2,9 @@
 package zap
 
 import (
-	"github.com/goph/logur"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	"logur.dev/logur"
 
 	"logur.dev/adapter/zap/internal/keyvals"
 )
