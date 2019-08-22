@@ -3,8 +3,8 @@ module logur.dev/adapter/zap
 go 1.12
 
 require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pkg/errors v0.8.1 // indirect
-	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/stretchr/testify v1.4.0 // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
