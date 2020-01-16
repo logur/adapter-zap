@@ -4,5 +4,5 @@ go 1.12
 
 require (
 	go.uber.org/zap v1.13.0
-	logur.dev/logur v0.15.1
+	logur.dev/logur v0.16.1
 )
